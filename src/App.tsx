@@ -36,7 +36,7 @@ const todos: Todo[] = [
 function App() {
   return (
     <div className="mx-auto max-w-screen-md px-4">
-      <h1 className="text-3xl tracking-widest">Todo List</h1>
+      <h1 className="text-3xl tracking-widest">My Todo List</h1>
       <div className="mt-10 flex flex-col gap-4">
         {todos.map((todo) => (
           <div className="flex flex-col gap-4 rounded-md border border-slate-300 p-4">

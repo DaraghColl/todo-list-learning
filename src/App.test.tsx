@@ -5,6 +5,6 @@ import App from './App';
 describe('App Component', () => {
   test('renders', () => {
     render(<App />);
-    expect(screen.getByText('Todo List')).toBeDefined();
+    expect(screen.getByText('My Todo List')).toBeDefined();
   });
 });
