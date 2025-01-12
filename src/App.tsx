@@ -39,7 +39,7 @@ function App() {
       <h1 className="text-3xl tracking-widest">My Todo List</h1>
       <div className="mt-10 flex flex-col gap-4">
         {todos.map((todo) => (
-          <div className="flex flex-col gap-4 rounded-md border border-slate-300 p-4">
+          <div key={todo.id} className="flex flex-col gap-4 rounded-md border border-slate-300 p-4">
             <h3>{todo.title}</h3>
             {todo.description && <p>{todo.description}</p>}
             <span>{todo.status}</span>
