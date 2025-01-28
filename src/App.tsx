@@ -10,7 +10,7 @@ interface Todo {
 function App() {
   const [todos] = useState<Todo[]>([
     {
-      id: 'todo1',
+      id: 'todo12',
       title: 'Finish the presentation for the client meeting',
       status: 'todo'
     },
